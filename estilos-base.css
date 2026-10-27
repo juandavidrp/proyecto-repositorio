@@ -303,14 +303,13 @@ h1 {
 }
 
 .proyecto {
-  min-height: 220px;
-  margin: 0 72px 80px;
-  padding: 36px 48px;
+  margin: 0 clamp(1.25rem, 5vw, 4.5rem) clamp(4rem, 7vw, 5rem);
+  padding: clamp(1.75rem, 4vw, 3rem);
   display: grid;
-  grid-template-columns: 90px 1fr auto;
+  grid-template-columns: 4.75rem minmax(0, 1fr) auto;
   align-items: center;
-  gap: 26px;
-  border-radius: 20px;
+  gap: clamp(1rem, 3vw, 2rem);
+  border-radius: 1.25rem;
   background: #242044;
   color: white;
 }
