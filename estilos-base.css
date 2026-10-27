@@ -211,14 +211,10 @@ h1 {
   gap: 1.5rem;
 }
 
-.tarjeta {
-  min-width: 0;
-  padding: clamp(1.25rem, 2.5vw, 1.75rem);
-  border: 1px solid #e7e8ef;
-  border-radius: 1rem;
-  background: white;
+.tarjeta > p:not(.categoria) {
+  color: #687186;
+  line-height: 1.5;
 }
-
 .tarjeta-icono {
   width: 48px;
   height: 48px;
