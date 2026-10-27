@@ -135,12 +135,13 @@ h1 {
 
 .ilustracion {
   position: relative;
-  width: 390px;
-  height: 280px;
+  width: 100%;
+  min-height: 17.5rem;
+  aspect-ratio: 1.4;
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: #28224f;
   color: white;
 }
