@@ -347,11 +347,13 @@ h1 {
 }
 
 .pie {
-  min-height: 100px;
-  padding: 24px 72px;
+  min-height: 6.25rem;
+  padding: 1.5rem clamp(1.25rem, 5vw, 4.5rem);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem 2rem;
   border-top: 1px solid #e7e8ef;
   color: #687186;
 }
