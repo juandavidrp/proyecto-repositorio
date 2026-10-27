@@ -181,7 +181,7 @@ h1 {
 }
 
 .seccion {
-  margin: 88px 72px;
+  margin: clamp(4rem, 8vw, 6rem) clamp(1.25rem, 5vw, 4.5rem);
 }
 
 .encabezado-seccion {
@@ -207,15 +207,15 @@ h1 {
 
 .rejilla-cursos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
 }
 
 .tarjeta {
-  min-height: 290px;
-  padding: 25px;
+  min-width: 0;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
   border: 1px solid #e7e8ef;
-  border-radius: 16px;
+  border-radius: 1rem;
   background: white;
 }
 
