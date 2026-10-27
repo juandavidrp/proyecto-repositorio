@@ -365,3 +365,12 @@ h1 {
 .pie p {
   margin: 0;
 }
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+.tabla-contenedor:focus-visible {
+  outline: 3px solid #5143c7;
+  outline-offset: 3px;
+}
